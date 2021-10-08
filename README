@@ -1,0 +1,76 @@
+*******************
+
+This goal of this project was to create a web application on a microsite for people to understand the workflows in WMTO.
+This information could benefit not only our team, but all other employees in WMTO because it encapsulates FTE, budget, function, and interdependency data across all teams.
+
+*******************
+
+The data is stored in 3 csv files:
+nodes.csv - the subteams across WMTO
+links.csv - the interdependencies between subteams
+team_desc.csv - the descriptions for each team
+
+Much of the code was taken from https://observablehq.com/@bmpms/network-circle-packs
+
+The visualization code is entirely located in helper.js
+
+The rest of this document will serve as a guide to the helper.js file:
+
+
+
+LEGEND:
+First, the legend is created. By using rectangles and text spaced in incremental values, we create the legend.
+The legend repeats itself after 8 categories by starting a new line.
+
+Then, the legend is drawn. Instead of using a pre-set scale of colors, the category names and colors are hardcoded
+into the fill attribute of the rectangles.
+
+The scales are then drawn for each hardcoded category.
+
+
+
+CHART:
+After creating the svg, the "root" is declared, which is a d3 hierarchy object with all of the nodes as children.
+pack_data is also declared and uses the d3 hierarchy object.
+
+Links are created from the links dataset.
+Links are added to the visualization.
+
+The modal is then created.
+First, a div is appended to the body with the class modal-content.
+Then, modal-content has another div appended to it for the text that is added later.
+Finally, that nested div has a span appended to it to close the modal.
+
+The nodes are then created by first appending a g tag and labeling it my_group.
+circle, path, and text tags are appended using a function call.
+The pack_circle class is filled with nodes with mouseover, mouseout, and click functions.
+The mouseover event triggers various elements to change in opacity and visibility, as well as show a tooltip.
+The mouseout event causes everything to return to the previous state.
+The click event removes all the p tags currently in the modal and then adds p tags to the modal content to show the data in either the team_desc csv or the nodes csv.
+Clicking on the span tag in the modal closes the modal.
+
+The zoom feature is then implemented.
+The tooltip feature is created here.
+
+The FTE count labels are then created. Their orientation is decided by the function draw_path.
+
+Then the forces that hold the network together are determined.
+
+The category color scale is hard coded here as well.
+
+Then the data is pulled from each csv using delayed function calls.
+
+The function onlyUnique is declared and used later in the function getNodes.
+getNodes is declared to extract the data from the nodes csv dataset.
+getNodes filters the data and builds a dictionary that can be used as the hierarchy.
+getLinks is a function that is used to extract the link data from the links csv.
+getDescs is a function that is used to extract the description data from the team_descs csv.
+
+setTimeout is then used to call all of these functions once the datasets are loaded.
+
+The other main variables such as margin, height, width, forceInABox, and d3 are then defined.
+
+
+
+
+

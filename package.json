@@ -1,0 +1,14 @@
+{
+  "name": "@bmpms/network-circle-packs",
+  "main": "helper.js",
+  "version": "585.0.0",
+  "homepage": "https://observablehq.com/@bmpms/network-circle-packs",
+  "author": {
+    "name": "bmpms",
+    "url": "https://observablehq.com/@bmpms"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

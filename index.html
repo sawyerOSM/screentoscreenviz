@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Network Circle Packs</title>
+<link rel="shortcut icon" href="#">
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<body>
+
+<style>
+
+.header {
+    overflow:hidden
+}
+
+.header img {
+    display: inline;
+      height: 200px;
+    float: right;
+}
+
+.heading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+</style>
+
+
+<div class="header">
+
+
+    <div class="heading">
+        <div class="title">
+            <h1 style="display:inline; line-height: 200px;  height: 200px; font-size: 44px;">WMTO Screen to Screen Network</h1>
+            <img src="logo.png">
+        </div>
+
+        <br/>
+
+        <p style="font-size: 24px;">The purpose of this data visualization is to convey team architecture, budget data, FTE data, team functions, and subteam communication within
+        the Warner Media Technology & Operations Department. Below are some details about the visualization:</p>
+
+        <br/>
+
+        <ul style="font-size: 18px;">
+            <li>The teams are arranged from the production stage (left) to the consumer platform stage (right).</li>
+            <li>The size of each node is determined by the FTE counts.</li>
+            <li>The brightness of each node is determined by its non-labor budget spend. The deeper the color conveys a higher budget.</li>
+            <li>When hovering over a team node, edges will appear to indicate which teams work with together. Hovering over subteam nodes will connect specific subteams that work together.</li>
+            <li>You can scroll to zoom and drag to move around the visualization. Click on any node for more details</li>
+        </ul>
+    </div>
+</div>
+
+<img src="legend.png" class="center">
+
+<script type="module">
+
+import define from "./index.js";
+import {Runtime, Library, Inspector} from "./runtime.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+
+</script>
+
+
+</body>

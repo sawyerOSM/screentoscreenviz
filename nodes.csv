@@ -1,0 +1,41 @@
+﻿id,subteam,team,lead,FTE,category,details,details2,budget
+12,"Studio Facilities, CRE, Physical Security, Tours & Retail",Monetization & Workplace Tech,Steve Tiffany,32,Pre Production,"Studio Operations, Studio Facilities, Post-Production Creative Services, Tours, Physical Security, Corporate Real Estate, M&A",Steve Tiffany,12100000
+4,"Field, Transport, and International Production Technology",Production Technology,Luis Ruben Esparza Valencia,131,Production,This is a placement sentence.,Luis Ruben Esparza Valencia,0
+5,Turner Production Broadcast Engineering,Production Technology,Matthew A Holcombe,132,Production,This is a placement sentence.,Matthew A Holcombe,0
+6,Production Infrastructure Engineering,Production Technology,Matthew D Laney,132,Production,This is a placement sentence.,Matthew D Laney,0
+7,Digital Media Systems,Production Technology,Michael A. Koetter,132,Production,This is a placement sentence.,Michael A. Koetter,0
+8,Program Management,Production Technology,Terry L Conway,132,Production,This is a placement sentence.,Terry L Conway,0
+9,Emerging & Production Technologies & Data Services,Production Technology,Tony Driscoll,132,Production,This is a placement sentence.,Tony Driscoll,100000000
+10,Monetization & Portfolio Mgmt,Monetization & Workplace Tech,Craig Fujimoto,30,Distribution/Promotion,"Domestic & International Theatrical, Warner Home Ent, Consumer Products, DC Entertainment, GBE, Games, Foundational Tech",Craig Fujimoto,0
+11,Monetization & Portfolio Mgmt,Monetization & Workplace Tech,Sharon Braun,30,Distribution/Promotion,"WW Television, IP & Content Licensing, Affiliate Subscription Sales, Global Supply Chain, Lakeside JV, CW JV, Digital Networks Group, Global Research, Insights & Analytics",Sharon Braun,12100000
+1,Technology Solutions,Content Tech and Operations,Lisa Craig,434,Distribution/Promotion,"Technology Solutions team aligns tactical operational, business and product needs to strategic priorities and objectives. The Technology Solutions team's core functions reside in strategic roadmap planning, product management & business analysis, portfolio/program/project management, and client/strategic relationship.",Lisa Craig,0
+2,Media Software Engineering,Content Tech and Operations,TBD (formely Rajaneesh Chandra),435,Distribution/Promotion,"Media Software Engineering team is responsible for media supply chain application development, content acquisition software development, ""pick|pack|ship"" software development, quality control & business assurance, metadata content workflow architecture & implemenentation, on-prem & cloud based application architecture, Tier 2/Tier 3 application support.",TBD (formely Rajaneesh Chandra),0
+3,Content Architecture & Engineering,Content Tech and Operations,David Sugg,435,Distribution/Promotion,"Content Architecture & Engineering team executes application devleopment for mastering , archive preservation, and content localization. Technical specifications and encoding development is owned by the Content Architecture & Engineering team as well. Similar to Media SW Engineering team, Content Architecture and Engineering also works on-prem & cloud based application architecture and tier 2/tier 3 application support.",David Sugg,100800000
+13,"Workplace Tech, Engineering & Data Center",Monetization & Workplace Tech,Chris Whitney,30,Platform,"AA Tooling, Productivity ools, Engineering & Architecture, Desktop Engineering, Creative App Design, Datacenter Operations, Infrastructure Engineering",Chris Whitney,0
+14,Global Workplace Services & Support,Monetization & Workplace Tech,Edgar Nuqui,30,Platform,"Desktop & Laptop Support, AV & Conference Room Support, Service Desk, New Equipment, Break-fix, Desktop Refresh, Tech Bars",Edgar Nuqui,0
+15,"Governance, Risk & Compliance Readiness; Platform Assurance",Monetization & Workplace Tech,Jason Whitehurst,30,Platform,"Compliance Readiness, Digital Records Management, Tech Governance, Accessibility COE, Patching & VR Ops, Account Admin Ops",Jason Whitehurst,12100000
+16,Consumer Experience Engineering,DTC,Euan McCleod,128,Platform,"Client Engineering, AVOD, Platform Engineering, Video",Euan McCleod,0
+17,Growth & Technology Ops,DTC,Mara Krieps,129,Platform,"Financial Mgmt, Tech Writing, Comm & Change Mgmt, Growth Planning & Business Ops",Mara Krieps,0
+18,Engineering Operations,DTC,Jason Lenhart,129,Platform,"QA, Incident Mgmt, DOC, Reliability Eng, Release Mgmt, App Security",Jason Lenhart,0
+19,Technical Program Management,DTC,Haydon Boone,129,Platform,"Content Discovery, Client Platform, Engineering Optimization/Data, Purchase & Identity, Strategic Initiatives",Haydon Boone,0
+20,Live & Simulcast Architecture & Design,DTC,Connie Goshgarian,129,Platform,This is a placement sentence.,Connie Goshgarian,0
+21,International OTT Technology,DTC,Mats Fredriksson,129,Platform,"International Architecture, front & back end dev, QA, DevOps, InfraOps, Platform Ops, BA Dev/Deliveries/Operations, Vendor Mgmt",Mats Fredriksson,101300000
+22,Data Strategy & CDX,Data,Rob Gill,46,Platform,This is a placement sentence.,Rob Gill,21091694
+23,Data Science & Analytics,Data,Haile Owusu,46,Platform,This is a placement sentence.,Haile Owusu,4092925
+24,EDS,Data,Matt Teshera,47,Platform,This is a placement sentence.,Matt Teshera,28222708
+25,Sports Technology,Consumer Sports and Digital Products,Shubbham Tyagi,85,Platform,This is a placement sentence.,Shubbham Tyagi,0
+26,B/R Engineering,Consumer Sports and Digital Products,Miguel DeAvila,85,Platform,This is a placement sentence.,Miguel DeAvila,0
+27,CNN Digital,Consumer Sports and Digital Products,Robyn Peterson,85,Platform,This is a placement sentence.,Robyn Peterson,0
+28,Entertainment Digital,Consumer Sports and Digital Products,Brian O'Neil,85,Platform,This is a placement sentence.,Brian O'Neil,0
+29,Platform Technology,Consumer Sports and Digital Products,Matthew Drooker,85,Platform,This is a placement sentence.,Matthew Drooker,0
+30,Strategic Platforms & Innovation ,Consumer Sports and Digital Products,Donald J. Loheide,85,Platform,This is a placement sentence.,Donald J. Loheide,0
+31,Digital Operations ,Consumer Sports and Digital Products,Krandall Jones ,85,Platform,This is a placement sentence.,Krandall Jones ,91500000
+32,Ad delivery,Advertising Technology,Placement Lead,23,Platform,This is a placement sentence.,This is a placement sentence.,15316147
+33,Audience and Measurement,Advertising Technology,Placement Lead,23,Platform,This is a placement sentence.,This is a placement sentence.,7938999
+34,Enterprise Software,Advertising Technology,Placement Lead,23,Platform,This is a placement sentence.,This is a placement sentence.,2512939
+35,Professional Services,Advertising Technology,Placement Lead,23,Platform,This is a placement sentence.,This is a placement sentence.,1576969
+36,Marketing,Advertising Technology,Placement Lead,11,Platform,This is a placement sentence.,This is a placement sentence.,1076493
+37,Data Analytics,Advertising Technology,Placement Lead,24,Platform,This is a placement sentence.,This is a placement sentence.,493393
+38,Other,Advertising Technology,Placement Lead,11,Platform,This is a placement sentence.,This is a placement sentence.,329111
+39,Cloud,Advertising Technology,Placement Lead,12,Platform,This is a placement sentence.,This is a placement sentence.,9000
+40,Ticketing,Advertising Technology,Placement Lead,12,Platform,This is a placement sentence.,This is a placement sentence.,3500
